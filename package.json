@@ -1,9 +1,11 @@
 {
   "scripts": {
+    "postinstall": "patch-package",
     "build": "webpack"
   },
   "type": "module",
   "devDependencies": {
+    "patch-package": "^6.5.1",
     "webpack": "^5.79.0",
     "webpack-cli": "^5.0.1"
   }

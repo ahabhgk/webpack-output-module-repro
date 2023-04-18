@@ -3,7 +3,8 @@ module.exports = {
   mode: 'development',
   devtool: false,
   output: {
-    module: true
+    module: true,
+    libraryTarget: "module"
   },
   experiments: {
     outputModule: true,
